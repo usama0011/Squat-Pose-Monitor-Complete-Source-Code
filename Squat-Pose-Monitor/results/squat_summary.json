@@ -1,0 +1,20 @@
+{
+  "input_video": "squat.mp4",
+  "side": "right",
+  "source_video_fps": 23.98,
+  "frames_processed": 1157,
+  "frames_with_valid_knee_angle": 1017,
+  "completed_reps": 4,
+  "discarded_cycles": 0,
+  "tracking_statuses": {
+    "low_confidence": 139,
+    "tracked": 1017,
+    "multiple_people": 1
+  },
+  "processing_seconds": 109.922,
+  "processing_fps": 10.53,
+  "average_pose_inference_ms": 79.12,
+  "model": "RTMLib BodyWithFeet (YOLOX + RTMPose, lightweight mode)",
+  "evaluation_status": "No real-video ground-truth accuracy assessed",
+  "form_classification": "Not implemented"
+}
